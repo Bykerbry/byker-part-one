@@ -1,0 +1,76 @@
+body {
+    background-color: #F0ECEE;
+    font-family: Fira Sans;
+}
+.red {
+    color:red;
+    font-weight: 300;
+}
+.gray {
+    color:#88898B;
+}
+.nav{
+    list-style: none;
+    padding-left: 0;
+}
+.btn{
+    background-color: #FF4850;
+    color:#F0ECEE;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: #CCC;
+    color: #FF4850; 
+}
+li:hover{
+    color: #FF4850;
+}
+h2 {
+    font-weight: 300;
+}
+h1 {
+    font-weight: 600;
+}
+p {
+    font-weight: 300;
+}
+li {
+    font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url("bulldog.jpg");
+        background-size: 100%;
+        margin: 8px 5vw 8px 5vw;
+    }
+    .btn {
+        width: auto;
+    }
+    .btn2 {
+        padding: 10px 30px 10px 30px;
+    }
+   .nav-container{
+       display: inline-flex;
+       width: 100%;
+   }
+   .nav{
+       display: inline-flex;
+       align-items: center;
+   }
+   .nav-right{
+       margin-left: auto;
+       align-items: center;
+   }
+   li{
+       padding: 10px;
+   }
+   .main-container{
+       width: 40%;
+       margin-top: 20vh;
+   }
+}
